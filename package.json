@@ -1,0 +1,20 @@
+{
+  "name": "csv-record-parser",
+  "description": "DSL for parsing CSV records",
+  "keywords": ["csv", "dsl", "csv-record", "csv-row"],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/csv-record-parser.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "debug": "*",
+    "better-assert": "*"
+  }
+}
