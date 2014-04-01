@@ -5,6 +5,8 @@
 
   [![Build Status](https://travis-ci.org/jb55/csv-record-parser.png)](https://travis-ci.org/jb55/csv-record-parser)
 
+  See also: [csv-record-parser-stream](https://github.com/jb55/csv-record-parser-stream)
+
 ## Installation
 
   Install with npm
@@ -15,7 +17,7 @@
 
 The purpose of this library is to create abstract csv record parsers:
 
-### person.js
+### Parsers
 
 Abstract person parser
 
@@ -31,16 +33,17 @@ module.exports = function person(csv){
 }
 ```
 
-### csv.js
+### Running the parser
 
 When reading csv:
 
 ```js
-var recordParser = require('csv-record-parser');
+var parser = require('csv-record-parser');
 var person = require('person');
 
-var csv = recordParser();
+var csv = parser();
 
+// input is some hypothetical csv library
 input.on('header', function(header){
   csv.header(header);
 });
