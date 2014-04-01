@@ -3,6 +3,8 @@
 
   Create CSV record parsers in an abstract way
 
+  [![Build Status](https://travis-ci.org/jb55/csv-record-parser.png)](https://travis-ci.org/jb55/csv-record-parser)
+
 ## Installation
 
   Install with npm
