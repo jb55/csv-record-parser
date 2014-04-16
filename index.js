@@ -27,6 +27,7 @@ RecordParser.prototype.row = function(row) {
 };
 
 RecordParser.prototype.col = function(name) {
+  name = !this.exact? name.toLowerCase() : name;
   return this._row[this._header[name]];
 };
 

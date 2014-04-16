@@ -1,8 +1,13 @@
 {
   "name": "csv-record-parser",
   "description": "DSL for parsing CSV records",
-  "keywords": ["csv", "dsl", "csv-record", "csv-row"],
-  "version": "0.0.2",
+  "keywords": [
+    "csv",
+    "dsl",
+    "csv-record",
+    "csv-row"
+  ],
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "git://github.com/jb55/csv-record-parser.git"
