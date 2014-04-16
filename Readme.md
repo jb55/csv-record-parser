@@ -70,13 +70,13 @@ returns: a new `RecordParser` instance
 
 #### .header(header)
 
-Set the header, used for `col` lookups
+Sets and gets the header, used for `col` lookups
 
 * `header` (`Array`): array of strings representing the header
 
 #### .row(row)
 
-Set the row, used for `col` and `ind` lookups
+Sets and gets the row, used for `col` and `ind` lookups
 
 * `row` (`Array`): row data
 
