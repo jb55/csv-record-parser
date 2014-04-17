@@ -11,7 +11,8 @@ function RecordParser(opts) {
 }
 
 RecordParser.prototype.header = function(header) {
-  if (header == null) return this._header;
+  if (header == null) return this._rawHeader;
+  this._rawHeader = header;
   this._header = header.reduce(function(obj, col, ind) {
     if (!this.exact) col = col.trim().toLowerCase();
     obj[col] = ind;

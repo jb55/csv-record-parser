@@ -1,6 +1,7 @@
 
 var assert = require('better-assert');
 var debug = require('debug')('csv-record-parser:test');
+var expect = require('expect.js');
 var recordParser = require('..');
 
 function person(csv){
@@ -51,4 +52,10 @@ describe('csv-record-parser', function(){
     assert(parsed.name === "Bill");
     assert(parsed.age === 25);
   })
+
+  it('header should return raw header', function(){
+    var header = ["name", "Age"];
+    var csv = recordParser().header(header);
+    expect(csv.header()).to.eql(header);
+  });
 });
