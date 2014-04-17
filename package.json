@@ -20,7 +20,7 @@
   "devDependencies": {
     "better-assert": "*",
     "debug": "*",
-    "expect.js": "^0.3.1",
+    "expect.js": "*",
     "mocha": "*"
   }
 }
