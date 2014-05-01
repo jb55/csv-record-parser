@@ -3,7 +3,7 @@
 
   Create CSV record parsers in an abstract way
 
-  [![Build Status](https://travis-ci.org/jb55/csv-record-parser.png)](https://travis-ci.org/jb55/csv-record-parser)
+  [![Build Status](https://travis-ci.org/jb55/csv-record-parser.svg)](https://travis-ci.org/jb55/csv-record-parser)
 
   See also: [csv-record-parser-stream](https://github.com/jb55/csv-record-parser-stream)
 
